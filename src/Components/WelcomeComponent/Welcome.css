@@ -1,0 +1,11 @@
+
+
+.welcomeBg{
+    background-image: url(/src/images/Assassins-Creed-Japan-Yasuke.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+
+}

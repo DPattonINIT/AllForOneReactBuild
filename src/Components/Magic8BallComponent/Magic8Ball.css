@@ -1,0 +1,35 @@
+
+
+.Magic8BallBg{
+    background-image: url(/src/images/190517134410-20190517-japan-african-samurai-illo.jpg);
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+.helloContainer {
+    justify-items: center;
+  }
+  .helloBox2Text {
+    font-family: julee;
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 9px;
+  }
+  .helloBox3Text {
+    font-family: julee;
+    color: white;
+    font-size: 1rem;
+    padding-top: 9px;
+  }
+
+  .helloBox5 {
+    justify-items: center;
+    width: 75%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.853);
+    border-radius: 8px;
+    border: 5px solid goldenrod;
+    box-shadow: rgb(245, 245, 245) 100%;
+  }

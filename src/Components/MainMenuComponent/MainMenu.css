@@ -1,0 +1,77 @@
+
+.LandingBg{
+    background-image: url(/src/images/Yasuke-first-Black-samurai-1180x664.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+.selectionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   gap: 50px;
+  }
+  .selectionContainerx2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 115px;
+  }
+  .selectionBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 150px;
+    background-color: hsla(0, 0%, 0%, 0.8);
+    border-radius: 6px;
+    border: 5px solid goldenrod;
+    box-shadow: black 100%;
+  }
+  .selectionBox:hover {
+    background-color: rgb(2, 2, 2);
+    transform: scale(1.1);
+  }
+  
+  .selectionText {
+    font-family: julee;
+    color: white;
+    font-size: 1.5rem;
+    align-items: center;
+  }
+  .introContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .introBox {
+    height: 150px;
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    border: 5px solid goldenrod;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  .introText {
+    font-family: julee;
+    color: white;
+    font-size: 1.5rem;
+    align-items: center;
+  }
+  .storyContainer {
+    margin-top: 70px;
+  }
+  .storyBTN {
+    height: 50px;
+    width: 110px;
+    background-color: black;
+    border-radius: 8px;
+    border: 5px solid goldenrod;
+  }
+  .storyBTN:hover {
+    background-color: rgb(2, 2, 2);
+    transform: scale(1.1);
+  }

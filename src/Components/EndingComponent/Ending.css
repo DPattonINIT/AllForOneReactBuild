@@ -1,0 +1,15 @@
+
+
+.EndingBg{
+background-image: url(/src/images/ac84f49d-a308-4fb6-a1a2-ac9255fe2665_1792x1024.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100vh;
+margin: 0;
+}
+.helloBox7Text{
+    font-family: julee;
+    color: white;
+    font-size: 1.5rem;
+}

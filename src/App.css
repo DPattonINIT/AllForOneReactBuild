@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.NewBg{
+background-image: url(/src/images/biggerHelment.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100vh;
+margin: 0;
+}
+
+.titleContainer{
+  padding-top: 200px;
+}
+.titleBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 800px;
+  border-radius: 15px;
+  border: 5px solid goldenrod;
+  background-color: rgb(208, 16, 16);
+}
+.enterContainer{
+  display: flex;
+  justify-content: center;
+}
+.titleText{
+  font-family: julee;
+  font-size: 4rem;
+  text-align: center;
+}
+.enterBTN{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100px;
+  background-color: goldenrod;
+  border-radius: 5px;
+  border: 5px solid rgb(208, 16, 16);
+}
+.enterBTN:hover {
+  background-color: rgb(208, 16, 16);
+  transform: scale(1.1);
+}
+.enterText {
+  font-family: julee;
+  font-size: 2rem;
+  color: white;
+}
+

@@ -1,0 +1,54 @@
+
+
+.restaurantPickerBg{
+    background-image: url(/src/images/175158.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+.helloContainer {
+    justify-items: center;
+  }
+  .helloBox6Text {
+    font-family: julee;
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 9px;
+  }
+  .categoryTxt {
+    font-family: julee;
+    color: white;
+    font-size: 1rem;
+    padding-top: 9px;
+  }
+
+  .helloBox6 {
+    justify-items: center;
+    width: 75%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.853);
+    border-radius: 8px;
+    border: 5px solid goldenrod;
+    box-shadow: rgb(245, 245, 245) 100%;
+  }
+  .submitBTN3 {
+    height: 50px;
+    width: 75px;
+    background-color: black;
+    border-radius: 8px;
+    border: 5px solid goldenrod;
+    box-shadow: rgb(245, 245, 245) 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-family: julee;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .submitBTN3:hover {
+    background-color: rgb(2, 2, 2);
+    transform: scale(1.1);
+  }
